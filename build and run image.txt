@@ -1,0 +1,13 @@
+# I used the following commands in the terminal to run and build my image
+# 1. Navigating to the directory containing my Dockerfile , 
+requirments.txt ( Dependencies file ) , main.py ( My python script file ) 
+and the random_paragraphs.txt file.
+# 2. build my image ( name => random_paragraph_img )
+# 3. run my image
+
+
+cd PycharmProjects\RandomParagraph
+
+docker build -t random_paragraph_img .
+
+docker run random_paragraph_img
